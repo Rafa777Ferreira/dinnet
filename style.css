@@ -1,0 +1,485 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+
+
+#box_1{
+    width: 100%;
+    height: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#box_1 {
+	background:#874DB2;
+    border-radius: 8px;
+}
+
+#descri01{
+    width: 1209px;
+    height: 88px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#descri01 {
+	background-color: #707070;
+    font: 16px Arial;
+    text-align: center;
+    color: #000000;
+    border-radius: 8px;
+}
+
+
+form {
+    background-color: #707070;
+    width: 300px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  
+  .imglupa {
+    color: var(--preto);
+    fill: currentColor;
+    width: 45px;
+
+    padding: 10px;
+  }
+
+  ::placeholder {
+    color: #d9d9d9;
+    opacity: 0.7; 
+  }
+
+  input {
+    all: unset;
+    font: 16px Arial;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+
+
+:root{
+--roxodinnet: #874DB2;
+--cinza01: #707070;
+--cinza02: #d9d9d9;
+--cinza03: #EEEEEE;
+--branco: #fff;
+--preto: #000;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    padding: .9rem;
+    background-color: var(--cinza02);
+    min-height: 50px;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.1px;
+    
+}
+
+body{
+height: 100vh;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.img-header{
+    position: left;
+    right:0%;
+    width: 5%;
+    height: 400%;
+    }
+
+.logo{
+    max-width: 100px ;
+    height: 100%;
+    border-radius: 5%;
+}
+
+nav{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.link-nav{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--preto);
+}
+
+.link-nav:hover{
+    color: var(--roxodinnet);
+    transition: .2s;
+}
+
+.btn-top{
+    display: flex;
+    gap: 2rem;
+}
+
+button{
+    padding: .4rem;
+    font-size: .9rem;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.btn-header{
+    background-color: var(--roxodinnet);
+    border: transparent;
+    color: var(--roxodinnet);
+}
+
+.btn-header:hover{
+    background-color: var(--preto);
+    border: transparent;
+}
+
+
+a.button3{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ffffff;
+    background-color:var(--roxodinnet);
+    text-align:center;
+    font-size: 20px;
+    transition: all 0.2s;
+}
+
+a.button3:hover{
+    background-color:var(--cinza01);
+    color: var(--preto);
+    font-size: 20px;
+}
+
+@media all and (max-width:30em){
+    a.button3{
+        display:block;
+        margin:0.2em auto;
+    }
+}
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+section{
+    padding: 4rem;
+}
+
+.section-zero{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.img-divi{
+    max-width: 300px;
+    padding: 1rem;
+}
+
+.division{
+    width: 100%;
+    border-radius: 20% ;
+}
+
+.newsdinnet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsdinnet h1{
+    color: #874DB2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    background-color: var(--cinza03);
+    padding: 2rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction:row;
+    gap: 20rem;
+    justify-content: center;
+    align-items: center;   
+}
+
+.pages{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.link-pages{
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--roxodinnet);
+    transition: .4s;
+}
+
+.link-pages:hover{
+    color: var(--preto)
+    
+}
+
+.contact{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact p{
+    font-size: 15px;
+    color: var(--cinza01);
+}
+
+.contact h2{
+    font-size: 30px;
+    color: var(--roxodinnet);
+}
+
+.redes{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.redes h2{
+    font-size: 30px;
+    color: var(--roxodinnet);
+}
+
+.icons{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    width: 100%;
+}
+
+.slider{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 2%;
+}
+
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+}
+
+.slide img{
+    width: 800px;
+}
+
+.manual-navi{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid var(--roxodinnet);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: #874DB2;
+}
+
+#radio1:checked ~ .frist{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .frist{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .frist{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .frist{
+    margin-left: -75%;
+}
+
+.navi-auto div{
+    border: 2px  solid var(--roxodinnet);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.navi-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.navi-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navi-auto .auto-btn1{
+    background-color: var(--roxodinnet);
+}
+
+#radio2:checked ~ .navi-auto .auto-btn2{
+    background-color: var(--roxodinnet);
+}
+
+#radio3:checked ~ .navi-auto .auto-btn3{
+    background-color: var(--roxodinnet);
+}
+
+#radio4:checked ~ .navi-auto .auto-btn4{
+    background-color: var(--roxodinnet);
+}
+
+.section-about{
+    background-color: var(--roxodinnet);
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    min-width: 300px;
+}
+
+.textus{
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    cursor: default;
+    text-align: justify;
+    max-width: 800px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.aboutus{
+    color: var(--branco);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section-ong{
+    background-color: var(--roxodinnet);
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    min-width: 300px;
+}
+.textong{
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    cursor: default;
+    text-align: justify;
+    max-width: 800px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.aboutong{
+    color: var(--branco);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section-img-ong{
+    background-color: var(--roxodinnet);
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    min-width: 300px;
+}
+
+.img-casahacker{
+    max-width: 200px;
+}
+
+.img-bem-gasto{
+    max-width: 200px;
+}
+
+.img-fluid{
+    max-width: 200px;
+}
